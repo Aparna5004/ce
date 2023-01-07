@@ -1,0 +1,286 @@
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav {
+    padding: 16px;
+}
+
+
+.mat-sidenav {
+    width: 438px;
+    background-color: white;
+}
+
+
+
+
+
+
+.mat-sidenav-container .profile {
+
+    align-items: center;
+    display: flex;
+}
+
+
+
+.mat-sidenav-container .profile h3 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}
+
+.mat-sidenav-container .bottom-content {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.mat-sidenav-container .bottom-content ul li a {
+    display: block;
+
+    color: black;
+}
+
+.mat-sidenav-container ul li i {
+    margin-right: 16px;
+}
+
+.mat-sidenav-content .home-content {
+    position: relative;
+    padding-top: 30px;
+}
+
+.home-content .overview-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.home-content .overview-boxes .box {
+    width: calc(100% /5 - 15px);
+    padding: 20px;
+    background: #fff;
+    height: 115px;
+    border-radius: 1px;
+    box-shadow: 0px 3px 9px rgba(53, 53, 53, 0.25);
+}
+
+.home-content .overview-boxes .box_topic {
+    font-size: 14px;
+    font-weight: 500;
+    top: 40px;
+    position: absolute;
+    font-family: poppins;
+
+
+}
+
+.home-content .overview-boxes .number {
+    font-size: 40px;
+    font-weight: 500;
+    top: 90px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    font-family: poppins;
+}
+
+
+
+.mat-sidenav-content table {
+    position: absolute;
+
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+}
+
+
+/*.mat-sidenav-content table th {
+    background-color: #fff;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding-left: 1px;
+
+}
+
+.mat-sidenav-content table td {
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+.mat-sidenav-content table td i {
+    padding: 3px;
+    font-size: 20px;
+    color: black;
+}
+
+.mat-sidenav-content table th i {
+    padding-left: 20px;
+    font-size: 12px;
+}*/
+#customers {
+    font-family: poppins;
+
+    width: 100%;
+
+}
+
+
+
+#customers td {
+    font-size: 16px;
+    padding: 16px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+.mat-sidenav-content table td img {
+    padding: 3px;
+    height: 36px;
+    width: 36px;
+
+    border-radius: 0px;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+
+.mat-sidenav-content table th {
+    background-color: #fff;
+    padding-bottom: 35px;
+    border: 1px solid #AEAEAE;
+    font-size: 15px;
+    padding-left: 4px;
+
+}
+
+
+.mat-sidenav-container .menu {
+
+    align-items: center;
+    display: flex;
+}
+
+.mat-sidenav-container .menu i {
+
+
+    border-radius: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+
+
+}
+
+.mat-sidenav-container .menu .cross {
+    padding-left: 55%;
+}
+
+.mat-sidenav-container .menu .cross .fa {
+    font-size: 20px;
+}
+
+.menu h3 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+
+
+}
+
+.mat-sidenav-container .profile {
+
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+.select-btn {
+    width: 375px;
+    height: 35px;
+    background: #fff;
+    font-size: 15px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #003167;
+    left: 28px;
+    top: 205px;
+    position: absolute;
+    background: #FFFFFF;
+
+}
+
+.select-btn i {
+    font-size: 21px;
+}
+
+.subscription {
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.subscription h1 {
+    font-size: 15px;
+}
+
+.subscription p {
+    font-size: 15px;
+
+}
+
+.profile-img {
+    display: flex;
+}
+
+
+
+
+
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}

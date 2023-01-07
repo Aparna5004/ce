@@ -1,0 +1,65 @@
+<div class="profile">
+    <img src="assets/dp.png">
+    <h3 style="font-family: poppins;">Hello, Surya</h3>
+</div>
+<mat-nav-list style="padding-top: 80px; padding-left:10px; ">
+    <mat-list-item style="height:32px ; ">
+        <img src="assets/note.png" style="
+      width: 20px;
+      height: 20px;
+      left: 45px;
+      top: 108px;">
+        <span style="color: black ; font-size: 15px; font-family: poppins;" routerLink='/cyview'
+            target="_self">Customize View</span>
+        <i class="fa-solid fa-arrow-right"
+            style="position: absolute; top: 10px; left: 370px; font-size: 15px; color: #003167;"></i>
+    </mat-list-item>
+    <mat-list-item style="height:32px ;">
+        <img src="assets/filter.png" style="width: 24px;
+      height: 24px;
+      left: 45px;
+      top: 108px;">
+        <span style="color: black ; font-size: 15px; font-family: poppins; " routerLink='/filterpage'
+            target="_self">Filter Results</span>
+        <i class="fa-solid fa-arrow-right"
+            style="position: absolute; top: 10px; left: 370px; font-size: 15px; color: #003167;"></i>
+    </mat-list-item>
+    <mat-list-item style="height:32px ;">
+        <img src="assets/download (1).png" style="left:45px ; height: 20px; width: 20px;">
+        <span style="color: black ; font-size: 15px; font-family: poppins; ">Download CSV</span>
+    </mat-list-item>
+    <mat-list-item style="height:32px ;">
+        <img src="assets/keyword.png" style="left: 45px; height: 20px; width: 20px;">
+        <span style="color: black ; font-size: 15px; font-family: poppins; ">Keyword Cloud</span>
+    </mat-list-item>
+    <mat-list-item style="height:32px ;">
+        <img src="assets/trend.png" style=" height: 15px; width: 15px; margin: 1%;">
+        <span style="color: black ; font-size: 15px; font-family: poppins; ">Search Trends</span>
+    </mat-list-item>
+    <mat-list-item style="height:32px ;">
+
+        <img src="assets/screenshot.png" style="height: 20px; width:20px;">
+        <span style="color: black ; font-size: 15px; font-family: poppins; ">Download Screenshot</span>
+
+    </mat-list-item>
+    <div class="bottom" style="position: absolute; top:500px">
+        <hr style="width:400px ;">
+        <a mat-list-item style="height:32px ;" routerLink='/helppage' target="_self">
+            <img src="assets/help.png" style=" width: 22px; height: 22px;"> <span
+                style="color:black ; font-size: 15px;">Help</span>
+            <i class="fa-solid fa-arrow-right"
+                style="position: absolute; top: 10px; left: 370px; font-size: 15px; color: #003167;"></i>
+        </a>
+        <mat-list-item style="height:32px ;" routerLink='/account-setting' target="_self">
+            <img src="assets/settings (1).png" style="width: 22px; height: 22px;">
+            <span style="color:black ; font-size: 15px;">Account Settings</span>
+            <i class="fa-solid fa-arrow-right"
+                style="position: absolute; top: 10px; left: 370px; font-size: 15px; color: #003167;"></i>
+        </mat-list-item>
+        <mat-list-item style="height:32px ;">
+            <img src="assets/logout.png" style="width: 22px; height: 22px;">
+            <span style="color:black ; font-size: 15px;">Log Out</span>
+        </mat-list-item>
+    </div>
+</mat-nav-list>
+<router-outlet></router-outlet>

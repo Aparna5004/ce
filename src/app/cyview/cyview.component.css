@@ -1,0 +1,311 @@
+form {
+    margin: 0;
+
+}
+
+.mat-sidenav-container .menu {
+
+    align-items: center;
+    display: flex;
+}
+
+.mat-sidenav-container .menu i {
+
+
+    border-radius: 50%;
+    padding-left: 5%;
+    margin-right: 10px;
+
+
+}
+
+.menu h3 {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+
+
+}
+
+.mat-sidenav-container .menu .cross {
+    padding-left: 50%;
+}
+
+
+
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}
+
+.mat-sidenav-container .bottom-content {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.mat-sidenav-container .bottom-content ul li a {
+    display: block;
+
+    color: black;
+}
+
+.mat-sidenav-container ul li i {
+    margin-right: 16px;
+}
+
+.mat-sidenav-content .home-content {
+    position: relative;
+    padding-top: 30px;
+}
+
+.home-content .overview-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.home-content .overview-boxes .box {
+    width: calc(100% /5 - 15px);
+    padding: 20px;
+    background: #fff;
+    height: 115px;
+    border-radius: 1px;
+    box-shadow: 0px 3px 9px rgba(53, 53, 53, 0.25);
+}
+
+.home-content .overview-boxes .box_topic {
+    font-size: 14px;
+    font-weight: 500;
+    top: 40px;
+    position: absolute;
+    font-family: poppins;
+
+
+}
+
+.home-content .overview-boxes .number {
+    font-size: 40px;
+    font-weight: 500;
+    top: 90px;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    font-family: poppins;
+}
+
+
+
+.mat-sidenav-content table {
+    position: absolute;
+
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+}
+
+
+#customers {
+    font-family: poppins;
+
+    width: 100%;
+
+}
+
+
+
+#customers td {
+    font-size: 16px;
+    padding: 16px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+.mat-sidenav-content table td img {
+    padding: 3px;
+    height: 36px;
+    width: 36px;
+
+    border-radius: 0px;
+
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+
+.mat-sidenav-content table th {
+    background-color: #fff;
+    padding-bottom: 35px;
+    border: 1px solid #AEAEAE;
+    font-size: 15px;
+    padding-left: 4px;
+
+}
+
+
+
+.mat-sidenav table td {
+    background-color: #fff;
+    padding: 6px;
+    font-family: poppins;
+}
+
+.mat-sidenav table td {
+    font-weight: 800;
+}
+
+.mat-sidenav .btn {
+    border: none;
+    margin: 20px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.points .switch .check {
+    position: relative;
+    width: 50px;
+
+}
+
+.points .switch .check::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.points .switch .check:checked::before {
+    background: #00a1ff;
+
+}
+
+.points .switch .check::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    background: #333;
+    border-radius: 25px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+    margin: 9px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s cubic-bezier(0, 1, 0.5, 1);
+    border-radius: 4px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s cubic-bezier(0, 1, 0.5, 1);
+    border-radius: 3px;
+}
+
+input:checked+.slider {
+    background-color: #0076FF;
+}
+
+input:focus+.slider {
+    box-shadow: pink;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+.slider.round {
+    border-radius: 34px;
+
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+#round {
+    border-radius: 34px;
+}
+
+#round:before {
+    border-radius: 50%;
+}
+
+
+
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav {
+    padding: 16px;
+}
+
+
+.mat-sidenav {
+    width: 438px;
+    background-color: white;
+}
+
+.add-remove td {
+    font-size: 14px;
+}
+
+.add-remove td i {
+    color: #0076ff;
+}

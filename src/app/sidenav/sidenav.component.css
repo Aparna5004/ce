@@ -1,0 +1,60 @@
+.mat-sidenav-container .profile {
+
+    align-items: center;
+    display: flex;
+}
+
+.profile img {
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 22px;
+    top: 12px;
+
+}
+
+.profile h3 {
+    position: absolute;
+    width: 187px;
+    height: 36px;
+    left: 77px;
+    top: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}
+
+.mat-sidenav-container .bottom-content {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.mat-sidenav-container .bottom-content ul li a {
+    display: block;
+
+    color: black;
+}
+
+.mat-sidenav-container ul li i {
+    margin-right: 16px;
+}
+
+.mat-sidenav-content .home-content {
+    position: relative;
+    padding-top: 30px;
+}

@@ -1,0 +1,841 @@
+<div class="menu">
+  <!-- <i class="fa fa-arrow-left" style="left: 9px;
+    top: 26px; position:absolute;" routerLink="/sidenav"></i> -->
+  <i class="fa fa-arrow-left" style="left: 22px;
+    top: 25px; position:absolute; font-size: 15px; color: #222222;" routerLink="/sidenav"></i>
+  <h3 style="font-family: poppins;left: 50px;
+ top: 8px; position: absolute;">Main Menu</h3>
+  <!-- <div class="cross">
+        <button (click)="opened=!opened"
+            style="left: 377px; background-color:white; border: white; position: absolute; top: 28px; font-size: 25px; color: #003167; ">
+            <i class="fa-solid fa-xmark"></i></button>
+    </div> -->
+</div>
+<!-- <hr style="position: absolute;
+  width: 420px;
+  height: 0px;
+  left: 0px;
+  top: 45px;
+  
+  border: 1px solid #AEAEAE;"> -->
+<div class="filter-result">
+  <h1 style="padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    left: 24px;
+    top: 66px;
+    position: absolute;
+    font-family: poppins;
+    opacity: 0.9;">Filter Results</h1>
+</div>
+<!-- <div class="filter-row">
+  <div>
+    <img src="assets/all.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 18px;
+      top: 114px;
+      ">
+    <span><input type="text" placeholder="All" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 110px;
+        
+        background: #FFFFFF;
+        border: 1px solid #444444;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/price.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 26.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Price" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 162px;
+        color: #AEAEAE;
+;
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 170px;
+      ">
+    <span><input type="text" placeholder="Higest Price" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 162px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/rating.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 34.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Rating Number" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 212px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 218px;
+      ">
+    <span><input type="text" placeholder="Highest Rating Number" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 212px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/rank.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 41.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Rank" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 262px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 270px;
+      ">
+    <span><input type="text" placeholder="Highest Rank" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 262px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/sales.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 48.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Sales" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 310px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 316px;
+      ">
+    <span><input type="text" placeholder="Highest Sales" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 310px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/revenue.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 56.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Revenue" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 360px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 366px;
+      ">
+    <span><input type="text" placeholder="Highest Revenue" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 360px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/lowestrate.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 63.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Rating" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 410px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 414px;
+      ">
+    <span><input type="text" placeholder="Highest Rating" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 410px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/weight.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 71.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Weight" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 460px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 464px;
+      ">
+    <span><input type="text" placeholder="Highest Weight" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 460px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/sellers.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 79.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Sellers" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 510px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 514px;
+      ">
+    <span><input type="text" placeholder="Highest Sellers" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/net.png" style="position: absolute;
+      left: 3.67%;
+      right: 96.46%;
+      top: 86.97%;
+      bottom: 75.39%;
+      width: 24px;
+      height: 24px;
+      ">
+    <span><input type="text" placeholder="Lowest Net" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 560px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 566px;
+      ">
+    <span><input type="text" placeholder="Highest Net" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 560px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+
+    <span><input type="text" placeholder="Lowest LQS" style="box-sizing: border-box;
+
+        position: absolute;
+        width: 155px;
+        height: 40px;
+        left: 50px;
+        top: 610px;
+        
+        background: #FFFFFF;
+        border: 1px solid #003167;
+        border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 210px;
+      top: 614px;
+      ">
+    <span><input type="text" placeholder="Highest LQS" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 610px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+</div> -->
+<div class="filter-row">
+  <div>
+    <img src="assets/all.png" style="position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 18px;
+    top: 114px;
+    ">
+    <span><input type="text" placeholder="All" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 110px;
+      
+      background: #FFFFFF;
+      border: 1px solid #444444;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/price.png" id="filter_img1">
+    <span><input type="text" placeholder="Lowest Price" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 162px;
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+      top: 172px;
+    ">
+    <span><input type="text" placeholder="Higest Price" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 162px; 
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/rating.png" id="filter_img2">
+
+    <span><input type="text" placeholder="Lowest Rating Number" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 212px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 213px;
+    top: 220px;
+    ">
+    <span><input type="text" placeholder="Highest Rating Number" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 212px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/rank.png" id="filter_img3">
+    <span><input type="text" placeholder="Lowest Rank" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 262px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+     width: 20px;
+    height: 20px;
+    left: 213px;
+    top: 270px;
+    ">
+    <span><input type="text" placeholder="Highest Rank" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 262px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/sales.png" id="filter_img4">
+    <span><input type="text" placeholder="Lowest Sales" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 310px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+    top: 320px;
+    ">
+    <span><input type="text" placeholder="Highest Sales" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 310px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/revenue.png" id="filter_img5">
+    <span><input type="text" placeholder="Lowest Revenue" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 360px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+     width: 20px;
+    height: 20px;
+    left: 213px;
+    top: 370px;
+    ">
+    <span><input type="text" placeholder="Highest Revenue" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 360px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/lowestrate.png" id="filter_img6">
+    <span><input type="text" placeholder="Lowest Rating" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 410px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+    top: 420px;
+    ">
+    <span><input type="text" placeholder="Highest Rating" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 410px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/weight.png" id="filter_img7">
+    <span><input type="text" placeholder="Lowest Weight" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 460px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+    top: 470px;
+    ">
+    <span><input type="text" placeholder="Highest Weight" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 460px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/sellers.png" id="filter_img8">
+    <span><input type="text" placeholder="Lowest Sellers" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 510px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+    height: 20px;
+    left: 213px;
+    top: 520px;
+    ">
+    <span><input type="text" placeholder="Highest Sellers" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+    <img src="assets/net.png" id="filter_img9">
+    <span><input type="text" placeholder="Lowest Net" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 560px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+    top: 570px;
+    ">
+    <span><input type="text" placeholder="Highest Net" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 560px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+  <div>
+
+    <span><input type="text" placeholder="Lowest LQS" style="box-sizing: border-box;
+
+      position: absolute;
+      width: 155px;
+      height: 40px;
+      left: 50px;
+      top: 610px;
+      
+      background: #FFFFFF;
+      border: 1px solid #003167;
+      border-radius: 5px;"></span>
+    <img src="assets/arrow.png" style="position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 213px;
+    top: 620px;
+    ">
+    <span><input type="text" placeholder="Highest LQS" style="box-sizing: border-box;
+
+position: absolute;
+width: 155px;
+height: 40px;
+left: 240px;
+top: 610px;
+
+background: #FFFFFF;
+border: 1px solid #003167;
+border-radius: 5px;"></span>
+  </div>
+
+</div>
+<!--<div>
+      <i class="fa fa-tag" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Price"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Price"></span>
+    </div>
+    <div>
+      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Rating Number"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Rating Number"></span>
+    </div>
+    <div>
+      <i class="fa fa-bar-chart" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Rank"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Rank"></span>
+    </div>
+    <div>
+      <i class="fa fa-usd" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Sales"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Sales"></span>
+    </div>
+    <div>
+      <i class="fa fa-usd" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Revenue"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Revenue"></span>
+    </div>
+    <div>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Rating"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Rating"></span>
+    </div>
+    <div>
+      <i class="fa fa-caret-square-o-down" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Weight"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Weight"></span>
+    </div>
+    <div>
+      <i class="fa fa-users" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Sellers"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Sellers"></span>
+    </div>
+    <div>
+      <i class="fa fa-area-chart" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest Net"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest Net"></span>
+    </div>
+    <div>
+      <i class="fa fa-area-chart" aria-hidden="true"></i>
+      <span><input type="text" placeholder="Lowest LQS"></span>
+      <i class="fa fa-arrow-right" aria-hidden="true" style="color:lightgray;"></i>
+      <span><input type="text" placeholder="Highest LQS"></span>
+    </div>-->
+
+<!-- 
+  
+ -->
+<div class="button-col">
+
+  <button class="reset" style="
+  color: black;background: #FFFFFF;
+border: 1px solid #222222;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;left: 60px;
+top: 680px; position: absolute; height: 40px; width: 100px;
+    ">Reset</button>
+
+
+  <button class="apply" style="
+  color: white; float: right; background: #0076FF;
+border-color:#0076FF ;  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;left: 260px; 
+top: 680px; position: absolute; height: 40px; width: 100px; ">Apply</button>
+
+
+</div>
